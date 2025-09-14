@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const imgElement = whatsappButton.querySelector('img');
                 if (imgElement) {
                     whatsappButton.innerHTML = `
-                    <img src="/img/icons8-whatsapp-48.png" alt="Whatsapp" width="24"> 
+                    <img src="img/icons8-whatsapp-48.png" alt="Whatsapp" width="24"> 
                     ${translation.sendWhatsapp}
                 `;
                 }
@@ -673,4 +673,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // Llamar a la función cuando se abre el modal
     document.getElementById('galleryModal').addEventListener('shown.bs.modal', initMobileCarousel);
+
 });
